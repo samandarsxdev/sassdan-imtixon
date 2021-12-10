@@ -1,0 +1,98 @@
+.section{
+    margin: 120px auto;
+    width: 100%;
+    height: 350px;
+    background: url("/img/background.webp") no-repeat;
+    background-size: 100% 100%;
+    // background-position:top 20px left 0;
+    background-repeat:no-repeat;
+    padding: 0;
+    
+
+    // height: 472px;
+    &__btn-submit{
+        border: 1px solid #FBFCFE;
+        box-sizing: border-box;
+        border-radius: 24px;
+        width: 129px;
+        height: 40px;
+        cursor: pointer;
+        background: rgba($color:#487aa3 , $alpha: 0.1);
+        // background-color:none;
+     &:active{
+        background-color:  white;
+     }
+      }
+      &__row-logo{
+          margin-top: 30px;
+      }
+      &__choose{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+      }
+  &__box{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  &__big-text{
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    letter-spacing: -0.369231px;
+    
+    color: #FBFCFE;
+    width: 445px;
+  }
+  &__text{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    
+    width: 445px;
+    color: #FBFCFE;
+    
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  &__row{
+      width: 45%;
+  }
+
+  
+}
+
+
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@media  (max-width:768px) {
+    .container{
+        margin: 0 auto;
+     width: 90%;
+    }
+    .section{
+        margin: 300px 0;
+        background-size:100% 100%;
+        height: 550px;
+        padding: 20px 0;
+        &__box{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+    }
+}

@@ -1,0 +1,95 @@
+.section-header{
+    padding: 0;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image:url("/img/yarim aylana.webp");
+        background-repeat:no-repeat;
+        background-position:top 0 right;
+       padding: 40px 0;
+       background-size: 350px 100%;
+    }
+  
+    &__row{
+        width: 350px;
+    }
+    &__block{
+        display: flex;
+        width: 700px;
+    }
+    &__Big-text{
+        font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+    }
+    &__text{
+        
+font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #6C8294;
+
+    }
+    &__logo{
+        width: 300px;
+        height: 550px;
+    }
+}
+
+
+
+
+@media (max-width:768px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section-header{
+        padding: 0;
+   &__box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column-reverse;
+       background:none;
+   }
+   &__row{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   &__Big-text{
+       text-align: center;
+       width: 400px;
+   }
+   &__text{
+       width: 500px;
+       text-align: center;
+   }
+    }
+    .section-header__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inmortant{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+}

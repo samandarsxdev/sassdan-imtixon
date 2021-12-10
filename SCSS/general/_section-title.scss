@@ -1,0 +1,107 @@
+.section-title{
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 28%;
+    }
+    &__big-text{
+        text-align: center;
+    }
+    &__text{
+        text-align: center;
+    }
+    &__choose-lesson{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // align-items: center;
+        // padding: 20px 0;1
+    }
+    &__input{
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        width: 190px;
+        height: 40px;
+        border: none;
+        padding: 3px 10px;
+        // position: absolute;
+        // left: 850px;
+        margin-left: -320px;
+    }
+    &__submit{
+        width: 150px;
+        height: 40px;
+    background: #BA4270;
+    border-radius: 24px;
+    border: none;
+    // position: absolute;
+    //  left: 150px;
+    //  top: 10px;
+    margin-top: 5px;
+    margin-left: -90px;
+    
+    }
+    &__info-text{
+        font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+// margin-top: 30px;
+color: #36536B;
+// position: absolute;
+// top: 1910px;
+    }
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@media  (max-width:768px) {
+    .container{
+        margin: 0 auto;
+     width: 90%;
+    }
+    .section-title{
+        &__choose-lesson{
+            display: flex;
+            // justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            // align-items: center;
+            // padding: 20px 0;1
+            flex-direction: column;
+        }
+        &__form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            // margin: 0 auto;
+        }
+        &__row{
+            width: 27%;
+        }
+        &__input{
+            margin-left: 220px;
+        }
+        &__submit{
+            margin-left: -50px;
+        }
+    }
+    
+}

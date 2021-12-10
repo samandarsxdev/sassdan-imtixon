@@ -1,0 +1,71 @@
+.section-main{
+    
+    &__big-text{
+        
+font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+    }
+    &__row{
+        width: 45%;
+    }
+    &__text{
+        font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #6C8294;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:768px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section-main{
+        padding: 320px 0;
+        &__box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__row{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__text{
+            font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    width: 500px;
+    text-align: center;
+    
+    color: #6C8294;
+}
+    }
+}
