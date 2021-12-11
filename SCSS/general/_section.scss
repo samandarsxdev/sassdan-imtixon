@@ -1,10 +1,5 @@
 .section{
-    margin: 120px auto;
-    // width: 100%;
-    // height: 350px;
-     padding: 0;
-    
-
+    background: url("/img/background.webp") no-repeat;
     // height: 472px;
     &__btn-submit{
         border: 1px solid #FBFCFE;
@@ -32,10 +27,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: url("/img/background.webp") no-repeat;
-    background-size: 1140px 300px;
-    // background-position:top 20px left 0;
-    background-repeat:no-repeat;
+   
   }
   &__big-text{
     font-family: DM Serif Display;

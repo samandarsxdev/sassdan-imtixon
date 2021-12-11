@@ -1,12 +1,13 @@
 .footer{
-    background-image: url("/img/footer.webp");
-    background-repeat:no-repeat;
-    background-size:100% 100%;
+  
     &__box{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px 10px;
+        background-image: url("/img/footer.webp");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
     }
     &__row{
         display: flex;

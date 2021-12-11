@@ -1,0 +1,41 @@
+.header{
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__phone{
+        width: 400px;
+     height: 600px;
+    }
+}
+.header__Big-text{
+    font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+letter-spacing: -0.553846px;
+width: 400px;
+color: #36536B;
+
+}
+.header__input{
+    border: none;
+    height: 30px;
+    width: 160px;
+    background: #FBFCFE;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+border-radius: 24px
+
+
+}
+.header__submit{
+    background: #BA4270;
+border-radius: 24px;
+border: none;
+width: 160px;
+height: 30px;
+}
