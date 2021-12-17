@@ -37,3 +37,26 @@
     width: 1140px;
     margin: 0 auto;
 }
+
+
+@media  (max-width:730px) {
+    .container{
+        margin: 0 auto;
+     width: 90%;
+    }
+      .footer{
+          &__box{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+
+          }
+          &__info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+      }
+}
